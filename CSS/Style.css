@@ -1,5 +1,5 @@
 body {
-    font-family: 'Caladea';
+    font-family: 'aileron';
     font-size: 15px;
     color: #777777;
     line-height: 1.6;
@@ -13,12 +13,11 @@ body {
     display: flex;
     flex-direction: column;
     right: 0;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 
 .menu__images {
-    width: 15px;
-    height: auto;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -41,6 +40,7 @@ body {
     height: auto;
     color: black;
     margin-bottom: 5px;
+    margin-top: 0;
 }
 
 .section__1 {
@@ -72,6 +72,10 @@ body {
     justify-content: center;
 }
 
+.ff__Caladea {
+    font-family: 'Caladea';
+}
+
 .title__red {
     color: #d63c37;
 }
@@ -84,6 +88,78 @@ body {
     margin-left: 15px;
 }
 
-.section__1__suptitle {
-    font-family: 'aileron';
+.section__2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.section__2 :last-child {
+    margin-right: 0;
+}
+
+.section__2__text {
+    font-size: 17px;
+    margin-right: 40px;
+}
+
+.section__3 {
+    max-width: 1170px;
+    height: 1375px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.section__3__block {
+    width: 50%;
+}
+
+.section__3__title {
+    font-size: 30px;
+}
+
+.section__3__title .title__red {
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.section__3__item__header {
+    display: flex;
+    align-items: center;
+    margin-left: 82px;
+}
+
+.section__3__item__header img {
+    margin-right: 30px;
+}
+
+.section__3__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.marginleft130 {
+    margin-left: 130px;
+}
+
+.display__block {
+    display: block;
+}
+
+.margintop50 {
+    margin-top: 50px;
+}
+
+.section__3__background {
+    bottom: 0;
+    position: absolute;
+}
+
+.marginbottom250 {
+    margin-bottom: 250px;
 }
