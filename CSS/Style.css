@@ -32,7 +32,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    fill: #7f7f7f;
+    fill: #333333;
 }
 
 .burger {
@@ -162,4 +162,76 @@ body {
 
 .marginbottom250 {
     margin-bottom: 250px;
+}
+
+.section__4 {
+    height: 1440px;
+    background-color: #d63c37;
+    color: #333333;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+}
+
+.color__switch {
+    fill: #6b1e1b;
+}
+
+.section__4__container {
+    max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section__4__textblocks {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.section__4__block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.section__4__block__text__title {
+    font-size: 16px;
+    color: #faf3f3;
+}
+
+.section__4__block__text {
+    text-align: right;
+    width: 430px;
+}
+
+.section__4__block__circle {
+    min-width: 65px;
+    height: 65px;
+    border: 3px solid #fcfcfc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.white__circle {
+    background: #fcfcfc;
+}
+
+.marginright50 {
+    margin-right: 50px;
+}
+
+.section__4__title {
+    color: #fcfcfc;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 75px;
+    z-index: 1;
 }
